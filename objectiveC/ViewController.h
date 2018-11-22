@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+    @property (weak, nonatomic) IBOutlet UILabel *display;
+   @property (weak, nonatomic) IBOutlet UIButton *startButton;
 
+- (IBAction)start:(id)sender;
+- (IBAction)stop:(id)sender;
+- (IBAction)reset:(id)sender;
+    
 @end
 
